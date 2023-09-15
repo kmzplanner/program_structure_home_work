@@ -4,7 +4,7 @@ public class Main {
         return monthPayment;
     }
     public static void main(String[] args) {
-        double payment = calcPayment(200000, 2600000,2);
+        double payment = calcPayment(200000, 2600000,1);
         System.out.println(payment);
     }
 }
